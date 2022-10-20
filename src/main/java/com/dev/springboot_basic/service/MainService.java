@@ -9,4 +9,9 @@ public class MainService {
     @Autowired
     private MainController mainController;
 
+    public String getMessage(String msg) {
+
+        return "return " + msg + "by mainService";
+    }
+
 }
