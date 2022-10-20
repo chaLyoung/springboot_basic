@@ -12,7 +12,6 @@ public class SpringbootBasicApplication {
         System.setProperty("spring.profiles.active", profile);
         System.setProperty("service.name", "springboot_basic");
         SpringApplication.run(SpringbootBasicApplication.class, args);
-
     }
 
 }
